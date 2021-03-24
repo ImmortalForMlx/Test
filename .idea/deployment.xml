@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="root@101.226.173.174:22 password" showEqualInSync="true" showDifferentInSync="false" showNewOnSourceInSync="false">
+    <serverData>
+      <paths name="root@101.226.173.174:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mydjango" local="$PROJECT_DIR$" web="101.226.173.174" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

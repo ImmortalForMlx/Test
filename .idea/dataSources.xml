@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="MariaDB" uuid="93f31502-714c-4f81-bac1-0925f723ba97">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://101.226.173.174:3306/immortal</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Django default" uuid="95a52c72-18e4-41dd-b823-68c83801b9c6">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/mydjango/settings.py</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://101.226.173.174:3306/immortal</jdbc-url>
+    </data-source>
+  </component>
+</project>

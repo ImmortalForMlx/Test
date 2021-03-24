@@ -1,0 +1,29 @@
+{#登录#}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel=" stylesheet" href="{% static 'bootstrap-3.3.7-dist/css/bootstrap.min.css' %}">
+    <script src=" {% static 'bootstrap-3.3.7-dist/js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h2 class="text-center">登录</h2>
+        <div class="col-md-8 col-md-offset-2">
+            <form action="" method="post">
+            <p>username<input type="text" class="form-control" name = "username"></p>
+            <p>password<input type="text" class="form-control" name = "password"></p>
+            <button type="button" class="btn btn-primary" onclick="window.location.href = '/APP01/register/'"> 注册</button>
+{#                <button type="button" class="btn btn-primary" onclick="window.location.href = '/index/'"> 登录</button>#}
+            <input type="submit" class="btn btn-success">
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

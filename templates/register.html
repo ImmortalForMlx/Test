@@ -1,0 +1,33 @@
+{#注册#}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel=" stylesheet" href="{% static 'bootstrap-3.3.7-dist/css/bootstrap.min.css' %}">
+    <script src=" {% static 'bootstrap-3.3.7-dist/js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h2 class="text-center">注册</h2>
+        <div class="col-md-8 col-md-offset-2">
+            <form action="" method="post">
+            <p>登录名<input type="text" class="form-control" name = "username"></p>
+            <p>密码<input type="text" class="form-control" name = "password"></p>
+            <p>姓名<input type="text" class="form-control" name = "fullname"></p>
+            <p>年龄<input type="text" class="form-control" name = "age"></p>
+            <p>性别<input type="text" class="form-control" name = "gender"></p>
+            <p>国籍<input type="text" class="form-control" name = "country"></p>
+            <input type="submit" class="btn btn-success">
+{#            <button type="button" class="btn btn-primary btn-block" onclick="window.location.href = '/APP01/login/'"> 注册</button>#}
+{#            <button type="button" class="btn btn-primary btn-danger" onclick="window.location.href = '/ser/'"> 显示</button>#}
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
